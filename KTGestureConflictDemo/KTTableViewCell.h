@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  KTTableViewCell.h
 //  KTGestureConflictDemo
 //
 //  Created by kevin.tu on 16/4/21.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface KTTableViewCell : UITableViewCell
 
+- (void)configWithColor:(UIColor *)color;
 
 @end
-

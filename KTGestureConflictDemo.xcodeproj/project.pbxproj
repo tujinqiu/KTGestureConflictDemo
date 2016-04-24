@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		D09E70C01CC8B95B002C9459 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D09E70BF1CC8B95B002C9459 /* main.m */; };
 		D09E70C31CC8B95B002C9459 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D09E70C21CC8B95B002C9459 /* AppDelegate.m */; };
-		D09E70C61CC8B95B002C9459 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09E70C51CC8B95B002C9459 /* ViewController.m */; };
 		D09E70C91CC8B95B002C9459 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09E70C71CC8B95B002C9459 /* Main.storyboard */; };
 		D09E70CB1CC8B95B002C9459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09E70CA1CC8B95B002C9459 /* Assets.xcassets */; };
 		D09E70CE1CC8B95B002C9459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09E70CC1CC8B95B002C9459 /* LaunchScreen.storyboard */; };
 		D09E70D91CC8B95B002C9459 /* KTGestureConflictDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D09E70D81CC8B95B002C9459 /* KTGestureConflictDemoTests.m */; };
 		D09E70E41CC8B95B002C9459 /* KTGestureConflictDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D09E70E31CC8B95B002C9459 /* KTGestureConflictDemoUITests.m */; };
+		D09E70F31CC8BE00002C9459 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09E70F21CC8BE00002C9459 /* RootTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D09E70F91CC8CEF0002C9459 /* KTCubeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D09E70F81CC8CEF0002C9459 /* KTCubeView.m */; settings = {ASSET_TAGS = (); }; };
+		D09E70FC1CC8CF9F002C9459 /* KTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D09E70FB1CC8CF9F002C9459 /* KTTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,6 @@
 		D09E70BF1CC8B95B002C9459 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D09E70C11CC8B95B002C9459 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D09E70C21CC8B95B002C9459 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D09E70C41CC8B95B002C9459 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D09E70C51CC8B95B002C9459 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D09E70C81CC8B95B002C9459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D09E70CA1CC8B95B002C9459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D09E70CD1CC8B95B002C9459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,12 @@
 		D09E70DF1CC8B95B002C9459 /* KTGestureConflictDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTGestureConflictDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09E70E31CC8B95B002C9459 /* KTGestureConflictDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTGestureConflictDemoUITests.m; sourceTree = "<group>"; };
 		D09E70E51CC8B95B002C9459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09E70F11CC8BE00002C9459 /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		D09E70F21CC8BE00002C9459 /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
+		D09E70F71CC8CEF0002C9459 /* KTCubeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTCubeView.h; sourceTree = "<group>"; };
+		D09E70F81CC8CEF0002C9459 /* KTCubeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTCubeView.m; sourceTree = "<group>"; };
+		D09E70FA1CC8CF9F002C9459 /* KTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTTableViewCell.h; sourceTree = "<group>"; };
+		D09E70FB1CC8CF9F002C9459 /* KTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +109,13 @@
 			children = (
 				D09E70C11CC8B95B002C9459 /* AppDelegate.h */,
 				D09E70C21CC8B95B002C9459 /* AppDelegate.m */,
-				D09E70C41CC8B95B002C9459 /* ViewController.h */,
-				D09E70C51CC8B95B002C9459 /* ViewController.m */,
 				D09E70C71CC8B95B002C9459 /* Main.storyboard */,
+				D09E70F11CC8BE00002C9459 /* RootTableViewController.h */,
+				D09E70F21CC8BE00002C9459 /* RootTableViewController.m */,
+				D09E70FA1CC8CF9F002C9459 /* KTTableViewCell.h */,
+				D09E70FB1CC8CF9F002C9459 /* KTTableViewCell.m */,
+				D09E70F71CC8CEF0002C9459 /* KTCubeView.h */,
+				D09E70F81CC8CEF0002C9459 /* KTCubeView.m */,
 				D09E70CA1CC8B95B002C9459 /* Assets.xcassets */,
 				D09E70CC1CC8B95B002C9459 /* LaunchScreen.storyboard */,
 				D09E70CF1CC8B95B002C9459 /* Info.plist */,
@@ -270,9 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D09E70C61CC8B95B002C9459 /* ViewController.m in Sources */,
+				D09E70F91CC8CEF0002C9459 /* KTCubeView.m in Sources */,
+				D09E70F31CC8BE00002C9459 /* RootTableViewController.m in Sources */,
 				D09E70C31CC8B95B002C9459 /* AppDelegate.m in Sources */,
 				D09E70C01CC8B95B002C9459 /* main.m in Sources */,
+				D09E70FC1CC8CF9F002C9459 /* KTTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -401,7 +413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -498,6 +510,7 @@
 				D09E70EA1CC8B95B002C9459 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D09E70EB1CC8B95B002C9459 /* Build configuration list for PBXNativeTarget "KTGestureConflictDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				D09E70ED1CC8B95B002C9459 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D09E70EE1CC8B95B002C9459 /* Build configuration list for PBXNativeTarget "KTGestureConflictDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				D09E70F01CC8B95B002C9459 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

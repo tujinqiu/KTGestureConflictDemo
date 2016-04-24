@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  RootTableViewController.h
 //  KTGestureConflictDemo
 //
 //  Created by kevin.tu on 16/4/21.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface RootTableViewController : UITableViewController
 
 @end
-
